@@ -75,11 +75,11 @@ aws ec2 describe-instances
 ```
 
 If you don’t have any EC2 instances deployed, you should see output similar to the following:
-`
+```
 {
   "Reservations": []
 }
-`
+```
 > NOTE: AWS CLI version 2 will by default send command output with multiple lines to less in your terminal. You can type q to exit. If you want to override this behavior, you can modify your ~/.aws/config file to remove this default functionality.
 
 > TIP: AWS CloudShell is a browser-based terminal that you can use to quickly create a terminal environment in your authenticated AWS Console session to run AWS CLI commands from. By default, it uses the identity of your browser session to interact with the AWS APIs. Many of the recipes can be run using CloudShell. You can use CloudShell to run recipe steps, clean up commands, and other AWS CLI commands as your authenticated user, if you do not want to create a session that you use in your own local terminal environment on your workstation.
