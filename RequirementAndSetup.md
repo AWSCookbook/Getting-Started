@@ -3,9 +3,9 @@
 Here are the requirements to get started and some tips on where to find assistance:
 
 * AWS account
- * [Setup instructions](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
- * An IAM user with console and programmatic access
- * Administrator privileges for your IAM user
+  * [Setup instructions](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
+  * An IAM user with console and programmatic access
+  * Administrator privileges for your IAM user
 * Personal computer/laptop
 * Software
   * Web browser (e.g., Microsoft Edge, Google Chrome, or Mozilla Firefox)
@@ -13,39 +13,39 @@ Here are the requirements to get started and some tips on where to find assistan
   * Git
     * [Install instructions](https://github.com/git-guides/install-git)
   * Homebrew (optional but recommended to install other requirements)
-   * [Install instructions](https://docs.brew.sh/Installation)
+    * [Install instructions](https://docs.brew.sh/Installation)
   * Code editor (e.g., VSCodium or AWS Cloud9)
-   * Recommended install: `brew install --cask vscodium`
+    * Recommended install: `brew install --cask vscodium`
   * AWS CLI version 2 (2.1.26 or later)
-   * [Install guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-   * Recommended install: brew install awscli@2
+    * [Install guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+    * Recommended install: brew install awscli@2
   * Python 3.7.9 (and pip) or later
-   * Example install: `brew install python@3.7`
+    * Example install: `brew install python@3.7`
   * AWS Cloud Development Kit version 2.0 or later
-   * [Getting started guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
-   * Recommended install: `brew install npm and npm i -g aws-cdk@next`
+    * [Getting started guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
+    * Recommended install: `brew install npm and npm i -g aws-cdk@next`
 
 Recommended: Create a folder in your home directory called AWSCookbook. This will allow you to clone each chapter’s repository in one place:
-`
+```
 AWSCookbook:$ tree -L 1
 .
 ├── AccountManagement
 ├── ArtificialIntelligence
 ├── BigData
-`
+```
 
-> NOTE: At the time of publishing, the AWS CDK has two versions: version 1 and version 2 (developer preview). The code we have provided is written for version 2. You can find out more information about how to migrate to and install CDK version 2 in this AWS CDK v2 article.
+> NOTE: At the time of publishing, the AWS CDK has two versions: version 1 and version 2 (developer preview). The code we have provided is written for version 2. You can find out more information about how to migrate to and install CDK version 2 in this [AWS CDK v2 article](https://aws.amazon.com/blogs/developer/announcing-aws-cloud-development-kit-v2-developer-preview/).
 
-Getting Started
+# Getting Started
 This section provides examples of techniques and approaches we perform throughout the book to make the recipe steps easier to follow. You can skip over these topics if you feel comfortable with them. You can always come back and reference this section.
 
-# Setups
+##  Setups
 In addition to the installation of the prerequisites listed previously, you will need the following access.
 
-AWS account setup
+### AWS account setup
 You will need a user with administrative permissions. Some of the recipes require the ability to create AWS Identity and Access Management (IAM) resources. You can follow the AWS guide for creating your first IAM admin user and user group.
 
-General workstation setup steps for CLI recipes
+### General workstation setup steps for CLI recipes
 We have created a group of code repositories available at https://github.com/awscookbook. Create a folder called AWSCookbook in your home directory (or any place of your choosing) and cd there:
 ```
 mkdir ~/AWSCookbook && cd ~/AWSCookbook
@@ -59,7 +59,7 @@ Set and export your default Region in your terminal:
 export AWS_REGION=us-east-1
 ```
 
-> TIP: AWS offers many Regions across the world for cloud deployments. We’ll be using the us-east-1 Region for simplicity. As long as the services are available, there is no reason these recipes won’t work in other Regions. AWS has a list of Regions and services.
+> TIP: AWS offers many Regions across the world for cloud deployments. We’ll be using the us-east-1 Region for simplicity. As long as the services are available, there is no reason these recipes won’t work in other Regions. AWS has a list of [Regions and services](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/).
 
 Set your AWS ACCOUNT_ID by parsing output from the `aws sts get-caller-identity` operation:
 ```
