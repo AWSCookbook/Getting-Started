@@ -11,7 +11,7 @@ Here are the requirements to get started and some tips on where to find assistan
   * Web browser (e.g., Microsoft Edge, Google Chrome, or Mozilla Firefox)
   * Terminal with bash or Z shell (Zsh)
   * Git
-   * [Install instructions](https://github.com/git-guides/install-git)
+    * [Install instructions](https://github.com/git-guides/install-git)
   * Homebrew (optional but recommended to install other requirements)
    * [Install instructions](https://docs.brew.sh/Installation)
   * Code editor (e.g., VSCodium or AWS Cloud9)
