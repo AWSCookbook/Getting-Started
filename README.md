@@ -1,4 +1,6 @@
-[Requirement and Setup](RequirementAndSetup.md)
+[Requirements and Setup](RequirementAndSetup.md)
+
+[Techniques and Approaches Used in This Book](TechniquesAndApproachesUsedinThisBook.md)
 
 [Foreword](Foreword.md)
 
