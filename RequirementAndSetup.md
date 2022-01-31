@@ -36,10 +36,7 @@ AWSCookbook:$ tree -L 1
 
 > NOTE: At the time of publishing, the AWS CDK has two versions: version 1 and version 2 (developer preview). The code we have provided is written for version 2. You can find out more information about how to migrate to and install CDK version 2 in this [AWS CDK v2 article](https://aws.amazon.com/blogs/developer/announcing-aws-cloud-development-kit-v2-developer-preview/).
 
-# Getting Started
-This section provides examples of techniques and approaches we perform throughout the book to make the recipe steps easier to follow. You can skip over these topics if you feel comfortable with them. You can always come back and reference this section.
-
-##  Setups
+#  Setup
 In addition to the installation of the prerequisites listed previously, you will need the following access.
 
 ### AWS account setup
