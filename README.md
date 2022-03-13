@@ -6,6 +6,8 @@
 
 [Acknowledgments](Acknowledgments.md)
 
+[List of FREE recipes!](https://github.com/AWSCookbook/Getting-Started/blob/main/ListOfFreeRecipes.md)
+
 # Preface
 
 > The vast majority of workloads will go to the cloud. We’re just at the beginning—there’s so much more to happen. -- [Andy Jassy](https://www.forbes.com/sites/siliconangle/2015/01/28/andy-jassy-aws-trillion-dollar-cloud-ambition/?sh=120bdcdb321e)
