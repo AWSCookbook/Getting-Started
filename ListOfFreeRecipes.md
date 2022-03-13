@@ -1,5 +1,5 @@
 * Chapter 1 Security
- * [Connecting to EC2 Instances Using AWS SSM Session Manager](https://github.com/AWSCookbook/Security/tree/main/106-Connecting-to-EC2-Instances-Using-Session-Manager)
+  * [Connecting to EC2 Instances Using AWS SSM Session Manager](https://github.com/AWSCookbook/Security/tree/main/106-Connecting-to-EC2-Instances-Using-Session-Manager)
 * Chapter 2 Networking
 * Chapter 3 Security 
 * Chapter 4 Databases 
