@@ -8,5 +8,6 @@
   * [6.2 Automatically Scanning Images in ECR for Security](https://github.com/AWSCookbook/Containers/tree/main/602-Image-Scanning-In-ECR)
   * [6.7 Launching a Fargate container task in response to an event](https://github.com/AWSCookbook/Containers/tree/main/607-Fargate-Task-With-Event)
 * Chapter 7 Big Data 
-* Chapter 8 Artificial Intelligence 
+* Chapter 8 Artificial Intelligence
+  * [8.4 Redacting PII from text using Amazon Comprehend](https://github.com/AWSCookbook/ArtificialIntelligence/tree/main/804-Redacting-PII-from-text-using-Comprehend)
 * Chapter 9 Account Management 
