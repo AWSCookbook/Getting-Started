@@ -8,6 +8,7 @@
   * [6.2 Automatically Scanning Images in ECR for Security](https://github.com/AWSCookbook/Containers/tree/main/602-Image-Scanning-In-ECR)
   * [6.7 Launching a Fargate container task in response to an event](https://github.com/AWSCookbook/Containers/tree/main/607-Fargate-Task-With-Event)
 * Chapter 7 Big Data 
+  * [7.2 Streaming Data to Amazon S3 Using Amazon Kinesis Data Firehose](https://github.com/AWSCookbook/BigData/tree/main/702-Streaming-Data-to-S3-Using-Kinesis-Firehose)
 * Chapter 8 Artificial Intelligence
   * [8.4 Redacting PII from text using Amazon Comprehend](https://github.com/AWSCookbook/ArtificialIntelligence/tree/main/804-Redacting-PII-from-text-using-Comprehend)
 * Chapter 9 Account Management 
