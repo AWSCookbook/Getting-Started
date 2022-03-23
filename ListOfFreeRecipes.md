@@ -1,4 +1,5 @@
 * Chapter 1 Security
+  * [1.4 Testing IAM Policies with the IAM Policy Simulator](https://github.com/AWSCookbook/Security/blob/main/104-Testing-IAM-Policies-with-the-IAM-Policy-Simulator/README.md) 
   * [1.6 Connecting to EC2 Instances Using AWS SSM Session Manager](https://github.com/AWSCookbook/Security/tree/main/106-Connecting-to-EC2-Instances-Using-Session-Manager)
 * Chapter 2 Networking
 * Chapter 3 Security 
