@@ -2,6 +2,7 @@
   * [1.4 Testing IAM Policies with the IAM Policy Simulator](https://github.com/AWSCookbook/Security/blob/main/104-Testing-IAM-Policies-with-the-IAM-Policy-Simulator/README.md) 
   * [1.6 Connecting to EC2 Instances Using AWS SSM Session Manager](https://github.com/AWSCookbook/Security/tree/main/106-Connecting-to-EC2-Instances-Using-Session-Manager)
 * Chapter 2 Networking
+  * [2.6 Using VPC Reachability Analyzer to Verify and Troubleshoot Network Paths](https://github.com/AWSCookbook/Networking/tree/main/206-VPC-Reachability-Analyzer)
 * Chapter 3 Security 
 * Chapter 4 Databases 
 * Chapter 5 Serverless 
