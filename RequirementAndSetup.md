@@ -20,21 +20,20 @@ Here are the requirements to get started and some tips on where to find assistan
     * [Install guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
     * Recommended install: brew install awscli@2
   * Python 3.7.9 (and pip) or later
-    * Example install: `brew install python@3.7`
+    * Example install: `brew install python3`
   * AWS Cloud Development Kit version 2.0 or later
     * [Getting started guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
-    * Recommended install: `brew install npm and npm i -g aws-cdk@next`
+    * Recommended install: `brew install npm && npm i -g aws-cdk`
 
 Recommended: Create a folder in your home directory called AWSCookbook. This will allow you to clone each chapter’s repository in one place:
 ```
 AWSCookbook:$ tree -L 1
 .
-├── AccountManagement
 ├── ArtificialIntelligence
 ├── BigData
 ```
 
-> NOTE: At the time of publishing, the AWS CDK has two versions: version 1 and version 2 (developer preview). The code we have provided is written for version 2. You can find out more information about how to migrate to and install CDK version 2 in this [AWS CDK v2 article](https://aws.amazon.com/blogs/developer/announcing-aws-cloud-development-kit-v2-developer-preview/).
+> NOTE: The code we have provided is written for version 2. You can find out more information about how to migrate to and install CDK version 2 in this [AWS CDK v2 article](https://aws.amazon.com/blogs/developer/announcing-aws-cloud-development-kit-v2-developer-preview/).
 
 #  Setup
 In addition to the installation of the prerequisites listed previously, you will need the following access.
