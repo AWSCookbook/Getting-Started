@@ -8,7 +8,6 @@ Here are the requirements to get started and some tips on where to find assistan
   * Administrator privileges for your IAM user
 * Personal computer/laptop
 * Software
-  * Web browser (e.g., Microsoft Edge, Google Chrome, or Mozilla Firefox)
   * Terminal with bash or Z shell (Zsh)
   * Git
     * [Install instructions](https://github.com/git-guides/install-git)
@@ -24,6 +23,7 @@ Here are the requirements to get started and some tips on where to find assistan
   * AWS Cloud Development Kit version 2.0 or later
     * [Getting started guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
     * Recommended install: `brew install npm && npm i -g aws-cdk`
+  * Web browser (e.g., Microsoft Edge, Google Chrome, or Mozilla Firefox) when AWS Console access is needed
 
 Recommended: Create a folder in your home directory called AWSCookbook. This will allow you to clone each chapter’s repository in one place:
 ```
