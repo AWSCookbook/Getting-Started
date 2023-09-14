@@ -79,6 +79,12 @@ RANDOM_STRING=$(aws secretsmanager get-random-password \
 ```
 You can also use any other utilities to generate random strings. Some local tools may be preferred.
 
+The resource (example S3 bucket) can then be created with a command like this:
+```
+aws s3api create-bucket --bucket awscookbook801-$RANDOM_STRING
+```
+
+
 ## AWS Cloud Development Kit and helper.py
 A good place to start is the [“Getting started with the AWS CDK” guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html). After you have CDK 2.0 installed, if this is the first time you are using the AWS CDK, you’ll need to bootstrap with the Region you are working on with the AWS CDK toolkit:
 ```
